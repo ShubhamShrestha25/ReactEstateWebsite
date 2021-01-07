@@ -1,8 +1,7 @@
-import House1 from '../images/House1.jpg';
-import House2 from '../images/House2.jpg';
-import House3 from '../images/House3.jpg';
-import House4 from '../images/House4.jpg';
-
+import HouseOne from '../images/House-1.jpg';
+import HouseTwo from '../images/House-2.jpg';
+import HouseThree from '../images/House-3.jpg';
+import HouseFour from '../images/House-4.jpg';
 
 export const SliderData = [
     {
@@ -10,31 +9,31 @@ export const SliderData = [
         price: '$5,000,000',
         path: '/homes',
         label: 'View Home',
-        image: House1,
-        alt: 'house'
+        image: HouseOne,
+        alt: 'house1',
     },
     {
         title: 'Luxury Villa in Calabasas, California',
         price: '$5,000,000',
         path: '/homes',
         label: 'View Home',
-        image: House2,
-        alt: 'house'
+        image: HouseTwo,
+        alt: 'house2',
     },
     {
         title: 'Luxury Villa in Houston, Texas',
         price: '$5,000,000',
         path: '/homes',
         label: 'View Home',
-        image: House3,
-        alt: 'house'
+        image: HouseThree,
+        alt: 'house3',
     },
     {
         title: 'Luxury Villa in London, England',
         price: '$5,000,000',
         path: '/homes',
         label: 'View Home',
-        image: House4,
-        alt: 'house'
+        image: HouseFour,
+        alt: 'house4',
     },
 ]

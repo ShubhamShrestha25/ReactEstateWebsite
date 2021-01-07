@@ -10,7 +10,7 @@ export const SliderData = [
         path: '/homes',
         label: 'View Home',
         image: HouseOne,
-        alt: 'house1',
+        alt: 'house',
     },
     {
         title: 'Luxury Villa in Calabasas, California',
@@ -18,7 +18,7 @@ export const SliderData = [
         path: '/homes',
         label: 'View Home',
         image: HouseTwo,
-        alt: 'house2',
+        alt: 'house',
     },
     {
         title: 'Luxury Villa in Houston, Texas',
@@ -26,7 +26,7 @@ export const SliderData = [
         path: '/homes',
         label: 'View Home',
         image: HouseThree,
-        alt: 'house3',
+        alt: 'house',
     },
     {
         title: 'Luxury Villa in London, England',
@@ -34,6 +34,6 @@ export const SliderData = [
         path: '/homes',
         label: 'View Home',
         image: HouseFour,
-        alt: 'house4',
+        alt: 'house',
     },
 ]

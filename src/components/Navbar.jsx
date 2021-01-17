@@ -2,7 +2,7 @@ import React from 'react';
 import styled, {css} from 'styled-components/macro';
 import {Link} from 'react-router-dom';
 import {menuData} from "../data/MenuData"
-import { Button } from './Button';
+import { Buttoon } from './Button';
 import {FaBars} from 'react-icons/fa';
 
 const Nav = styled.nav`
@@ -65,7 +65,7 @@ ${NavLink}
 
 const NavBtn = styled.div`
 display:flex;
-align-item:center;
+align-items:center;
 margin-right: 24px;
 
 @media screen and (max-width: 768px) {
@@ -73,11 +73,11 @@ margin-right: 24px;
 }
 `;
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
     return (
         <Nav>
             <Logo to='/'>REALOO</Logo>
-            <MenuBars />
+            <MenuBars onClick={toggle}/>
             <NavMenu>
                 {
                     menuData.map((item, index)=>(
@@ -88,9 +88,9 @@ const Navbar = () => {
                 }
             </NavMenu>
             <NavBtn>
-                <Button to="/contact" primary="true">
+                <Buttoon to="/contact" primary="true">
                     Contact us
-                </Button>
+                </Buttoon>
             </NavBtn>
         </Nav>
     )

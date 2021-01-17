@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 
-export const Button = styled(Link)`
+export const Buttoon = styled(Link)`
 background: ${({ primary}) =>(primary ? '#000d1a' : 'CD853F')};
 white-space: nowrap;
 outline:none;
@@ -17,6 +17,6 @@ padding: ${({big}) => (big ? '16px 40px' : '16px 24px')};
 color: ${({primary}) => (primary ? '#fff' : '#000d1a')};
 font-size: ${({big}) => (big ? '20px' : '14px')};
 &:hover {
-    transfrom: translateY(-2px);
+    transform: translateY(-2px);
 }
 `;
